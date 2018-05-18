@@ -42,7 +42,9 @@ while num <= 5:
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
-
+cars = ["VW", "Honda", "Porsche", "Tesla", "Ferrari"]
+for car in cars:
+    print("My next car will be a red " + car + ".")
 
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
