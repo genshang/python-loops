@@ -64,6 +64,9 @@ while car < len(cars):
 #DO NOT use numbers in your string.
 
 cyber_attacks = ['Wannacry', 'Petya', 'Locky', 'Krack Attack', 'Sambacry']
+num = 0
+for index, attack in enumerate(cyber_attacks):
+    print("The attack at " + str(index) + " is " + attack + ".")
 
 
 #7 Even
