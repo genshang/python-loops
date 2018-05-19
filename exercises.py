@@ -71,6 +71,16 @@ for index, attack in enumerate(cyber_attacks):
 
 #7 Even
 # Declare a variable named even_list and assign it an empty list. Next, write a for loop that will place 25 even numbers starting from 0 into the even_list list. Print the even_list variable to see your results. 
+even_list = []
+even_num = 0
+for num in range(0,25):
+    even_num = num * 2
+    even_list.append(even_num)
+
+print(even_list)
+print(len(even_list))
+
+    
 
 
 #8 Sum Up
