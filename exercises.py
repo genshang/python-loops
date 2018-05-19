@@ -48,6 +48,10 @@ for car in cars:
 
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
+car = 0
+while car < len(cars):
+    print(cars[car])
+    car += 1
 
     
 #6  No More Tears
