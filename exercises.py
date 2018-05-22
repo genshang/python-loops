@@ -87,7 +87,9 @@ print(len(even_list))
 # Create a function named add_up which takes a parameter num. In the code block inside the function, create a variable named sum and assign it a number value of 0. Next, create a for loop that will iterate through a list of numbers using the range function that will be determined by the num parameter and will sum up all the numbers in the list and store it to the sum variable. Print the sum variable to see your results.
 
 #i.e a number list of 10 will have a sum total of 45
-
+# def add_up(num:)
+#     sum = 0
+#     for 
 
 #9 East Coast vs West Coast - A Hip Hop Rivalry
 #The East Coast - West Coast hip hop rivalry was a feud between artist and fans of the East Coast hip hop and West Coast hip hop scenes from the mid to last 1990s. 
@@ -95,9 +97,32 @@ print(len(even_list))
 #Your job is to create a function that will loop through the rappers list and place all the odd indexed items in a list named weessst_side and all the even indexed items in a list named east_side. Print your results.
 
 rappers = ['Tupac', 'Biggie', 'Ice Cube', 'Nas', 'Snoop', '50 Cent', 'Nate Dogg', 'Wu Tang Clan', 'Kendrick Lamar']
+weessst_side = []
+east_side = []
+index = 0
+def separate_rappers(rapper):
+    for rapper in list(rappers):
+        if rapper % 2 != 0:
+            return east_side.append()
+        else:
+            return weessst_side.append()
+    index += 1
+
+
+
+print(east_side)
+print(weessst_side)
 
 #10 Breaking Up is Easy
 #Create a for loop that will iterate through 10 even numbers (starting from 0) and stop printing at 10.
+
+for num in range(0, 15):
+    if num % 2 == 0:
+        print(num) 
+    if num == 10:
+        break
+
+print(num)
 
 
 #11 Zip Codes
