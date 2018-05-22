@@ -129,7 +129,10 @@ print(num)
 #Create a for loop that will iterate through the zip codes list below and print all the zip codes except for 96822.
 
 zip_codes = [90001,90002,90003,90004,90005,96822,90007,90008,90010,90011,90012,90013,90014,90015, 90016,90017,90018,90019]
-
+for code in zip_codes:
+    if code == 96822:
+        continue
+    print(code)
 
 #12 Fizz Buzz!
 #The classic programming task is back! Use a for loop that will iterate through 100 numbers starting from 1. Your job is to program the following:
