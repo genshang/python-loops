@@ -90,7 +90,7 @@ print(len(even_list))
 # Create a function named add_up which takes a parameter num. In the code block inside the function, create a variable named sum and assign it a number value of 0. Next, create a for loop that will iterate through a list of numbers using the range function that will be determined by the num parameter and will sum up all the numbers in the list and store it to the sum variable. Print the sum variable to see your results.
 
 #i.e a number list of 10 will have a sum total of 45
-# def add_up(num:)
+# def add_up(num):
 #     sum = 0
 #     for 
 
@@ -102,17 +102,14 @@ print(len(even_list))
 rappers = ['Tupac', 'Biggie', 'Ice Cube', 'Nas', 'Snoop', '50 Cent', 'Nate Dogg', 'Wu Tang Clan', 'Kendrick Lamar']
 weessst_side = []
 east_side = []
-index = 0
-def separate_rappers(rapper):
-    for rapper in list(rappers):
-        if rapper % 2 != 0:
-            return east_side.append()
+def separate_rappers(names):
+    for name in names:
+        if names.index(name) % 2 == 0:
+            east_side.append(name)
         else:
-            return weessst_side.append()
-    index += 1
+            weessst_side.append(name)
 
-
-
+separate_rappers(rappers)
 print(east_side)
 print(weessst_side)
 
